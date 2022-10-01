@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "start": "jiti ./start.ts"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.3",
+    "jiti": "^1.16.0",
+    "nuxt": "3.0.0-rc.11",
+    "ws": "^8.9.0"
+  }
+}
